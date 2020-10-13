@@ -1,3 +1,16 @@
+$(document).ready(function () {
+  $('.slider__inner').slick({
+    dots: true,
+    arrows: false,
+  });
+});
+
+
+
+
+
+
+
 // const markMesures = {
 //   name: 'Mark',
 //   mass: 65,
