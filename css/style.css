@@ -8,6 +8,7 @@ html {
   box-sizing: inherit;
 }
 body {
+  font-family: "Lato", sans-serif;
 }
 
 ul {
@@ -24,10 +25,11 @@ a {
 
 .header {
   background-color: #e8ebf1;
+  box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.07);
 }
 
 .container {
-  width: 1030px;
+  max-width: 1030px;
   margin: 0 auto;
   padding: 0 15px;
 }
@@ -39,7 +41,6 @@ a {
   align-items: center;
 }
 .header__logo a {
-  font-family: "Lato", sans-serif;
   font-weight: 700;
   font-size: 50px;
   line-height: 70px;
@@ -170,4 +171,31 @@ a {
 
 .dropdown__list a:hover {
   color: #2aacc8;
+}
+
+.slider {
+  background-color: rgb(129, 228, 237);
+  padding: 20px 0 40px;
+}
+
+.slider__inner {
+}
+
+.slider__item {
+  background-image: url(../images/slider-bg.jpg);
+  min-height: 440px;
+  background-position: top center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.slider__title {
+  width: 300px;
+  margin-left: 60px;
+  padding-top: 90px;
+
+  font-weight: 700;
+  font-size: 50px;
+  color: #fff;
+  /* line-height: 1.2; */
 }
