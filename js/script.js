@@ -3,6 +3,12 @@ $(document).ready(function () {
     dots: true,
     arrows: false,
   });
+  $('.works__inner').slick({
+    slidesToShow: 4,
+    slidesToScroll: 4,
+    nextArrow: '<button type="button" class="slick-next"><img src="images/arrow-next.svg" alt=""></button>',
+    prevArrow: '<button type="button" class="slick-prev"><img src="images/arrow-prev.svg" alt=""></button>'
+  });
 });
 
 
